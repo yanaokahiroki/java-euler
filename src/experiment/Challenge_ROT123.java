@@ -27,7 +27,7 @@ import java.util.List;
  *
  * <p>𝑆 の中には「TEAMLAB」という部分文字列が含まれる。元の文字列 𝑆 を復元した上で、𝑆 の中の「TEAMLAB」 の直後に続く 15 文字を答えよ。
  */
-public class ROT123 {
+public class Challenge_ROT123 {
   public static void main(String[] args) {
     // ①与えられた文字列を1文字ずつばらしてListに追加
     List<String> stringList = new ArrayList<>();

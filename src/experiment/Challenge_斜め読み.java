@@ -15,11 +15,8 @@ import java.util.List;
  * <p>VACLHTNAXQFTROTDPASCKN ZSLRKSACOSBDXIDCGFOOFL NQVHVIYMHINMTQDN....
  *
  * <p>左上から右下に至る対角線上にある文字を拾ってできる、22 文字の文字列を答えよ。
- *
- * A. VSVSESTMAGISTEROPTIMVS
- *
  */
-public class Challenge {
+public class Challenge_斜め読み {
     public static void main(String[] args) {
       List<String> stringList = new ArrayList<>();
       for (int i = 0 ; i < string.length(); i+=22){

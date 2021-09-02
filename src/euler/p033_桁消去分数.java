@@ -1,6 +1,6 @@
 package euler;
 
-public class p033 {
+public class p033_桁消去分数 {
   public static void main(String[] args){
     System.out.println("The answer is "  + run() + ".");
   }

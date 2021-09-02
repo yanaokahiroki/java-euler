@@ -1,6 +1,6 @@
 package euler;
 
-public class p028 {
+public class p028_螺旋状に並んだ数の対角線 {
   public static void main(String[] args){
     System.out.println("The answer is "  + calcSumOfDiagonals(LIMIT) + ".");
   }

@@ -11,7 +11,7 @@ import experiment.MyLibrary;
  *
  * <p>注: 2, 3, 5, 7を切り詰め可能な素数とは考えない.
  */
-public class p037 {
+public class p037_切り詰め可能素数 {
   public static void main(String[] args) {
     System.out.println(run());
   }

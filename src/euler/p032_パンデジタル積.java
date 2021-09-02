@@ -2,7 +2,7 @@ package euler;
 
 import java.util.Arrays;
 
-public class p032 {
+public class p032_パンデジタル積 {
   public static void main(String[] args) {
     System.out.println("The answer is " + run() + ".");
   }

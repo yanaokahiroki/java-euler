@@ -2,7 +2,7 @@ package euler;
 
 import java.util.Arrays;
 
-public class p022 {
+public class p022_名前のリスト {
   public static void main(String[] args){
     Arrays.sort(names);
     System.out.println("総和：" + sumOfNames(names));

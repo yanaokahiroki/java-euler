@@ -182,14 +182,14 @@ public class MyLibrary {
    * @param n 非負整数
    * @return nの階乗
    */
-  public static BigInteger getBigIntegerFactorial(int n) {
-    if (n < 0) throw new IllegalArgumentException("引数nが負数です。正整数で入力してください。");
-    BigInteger factorial = BigInteger.ONE;
-    for (int i = 1; i <= n; i++) {
-      factorial = factorial.multiply(BigInteger.valueOf(n));
+  public static BigInteger getFactorial(int n){
+    BigInteger bigInteger = BigInteger.ONE;
+    for (int i = 1; i <= n; i++){
+      bigInteger = bigInteger.multiply(BigInteger.valueOf(i));
     }
-    return factorial;
+    return bigInteger;
   }
+
 
   /**
    * 引数nの階乗を計算する(int版)
@@ -198,7 +198,6 @@ public class MyLibrary {
    * @return numberの階乗
    */
   public static int getIntFactorial(int number) {
-    if (number < 0) throw new IllegalArgumentException("引数nが負数です。正整数で入力してください。");
     int factorial = 1;
     for (int i = 1; i <= number; i++){
       factorial *= i;

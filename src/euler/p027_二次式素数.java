@@ -1,6 +1,6 @@
 package euler;
 
-public class p027 {
+public class p027_二次式素数 {
   public static void main(String[] args){
     System.out.println("The answer is "  + calculateATimesB() + ".");
   }

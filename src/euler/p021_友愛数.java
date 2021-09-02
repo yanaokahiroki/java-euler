@@ -1,6 +1,6 @@
 package euler;
 
-public class p021 {
+public class p021_友愛数 {
   private static final int LIMIT = 10000;
 
   public static void main(String[] args){
