@@ -24,6 +24,7 @@ public class p034_桁の階乗 {
   private static int sumOfFactorial(int number){
     int sum = 0;
     while (number != 0){
+      // numberの下1桁から順に見る
       int digit = number % 10;
       sum += calcFactorial(digit);
       number /= 10;
