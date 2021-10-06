@@ -79,7 +79,7 @@ public class CollectionMethod {
   public static void drawTriangle(int triangleSize) {
     for (int i = 0; i < triangleSize; i++) {
       for (int j = 0; j <= i; j++) {
-        out.print("$");
+        out.print("▲");
       }
       out.println();
     }
