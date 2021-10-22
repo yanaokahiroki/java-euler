@@ -4,7 +4,6 @@ import java.math.BigInteger;
 
 /**
  * 7の777乗を求めその中央9桁を求めよ。
- *
  */
 public class p03 {
   public static void main(String[] args) {
