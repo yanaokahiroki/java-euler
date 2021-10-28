@@ -3,3 +3,5 @@ docs/
 out/
 PD.iml
 personalDevelopment.iml
+src/experiment/
+src/test/
