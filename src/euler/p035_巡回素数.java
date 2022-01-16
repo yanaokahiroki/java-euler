@@ -1,7 +1,5 @@
 package euler;
 
-import experiment.MyLibrary;
-
 /**
  * 「巡回素数」
  * 197は巡回素数と呼ばれる. 桁を回転させたときに得られる数 197, 971, 719 が全て素数だからである.

@@ -1,7 +1,5 @@
 package euler;
 
-import experiment.MyLibrary;
-
 import java.util.ArrayList;
 import java.util.List;
 
