@@ -10,10 +10,11 @@ import java.util.Objects;
  *
  * @author yanaokahiroki
  */
-public class MyLibrary {
+public final class MyLibrary {
 
-  public static void main(String[] args) {
-    System.out.println();
+  /** コンストラクタをprivateにしてインスタンス化させない */
+  private MyLibrary() {
+    throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
   }
 
   /**
