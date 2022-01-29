@@ -1,5 +1,7 @@
 package euler;
 
+import util.EulerUtil;
+
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +40,7 @@ public class euler {
     List<Long> primeList = new ArrayList<>();
     long number = 600851475143L;
     for (int i = 3; i <= (int)Math.sqrt(number); i++){
-      if (number % i == 0 && MyLibrary.isPrime(i)){
+      if (number % i == 0 && EulerUtil.isPrime(i)){
         primeList.add((long) i);
       }
     }
@@ -111,7 +113,7 @@ public class euler {
   private static int p07(){
     int count = 0;
     for (int i = 2; ; i++){
-      if (MyLibrary.isPrime(i)){
+      if (EulerUtil.isPrime(i)){
         count++;
         if (count == 10001) return i;
       }
@@ -149,7 +151,7 @@ public class euler {
     BigInteger sum = BigInteger.ZERO;
 
     for (int i = 0; i < 2000000; i++){
-      if (MyLibrary.isPrime(i)){
+      if (EulerUtil.isPrime(i)){
         sum = sum.add(BigInteger.valueOf(i));
       }
     }

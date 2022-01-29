@@ -1,4 +1,4 @@
-package euler;
+package util;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -10,10 +10,10 @@ import java.util.Objects;
  *
  * @author yanaokahiroki
  */
-public final class MyLibrary {
+public final class EulerUtil {
 
   /** コンストラクタをprivateにしてインスタンス化させない */
-  private MyLibrary() {
+  private EulerUtil() {
     throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
   }
 

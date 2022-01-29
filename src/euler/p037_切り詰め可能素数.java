@@ -1,5 +1,7 @@
 package euler;
 
+import util.EulerUtil;
+
 /**
  * 「切り詰め可能素数」
  * 3797は面白い性質を持っている. まずそれ自身が素数であり, 左から右に桁を除いたときに全て素数になっている (3797, 797, 97, 7).
@@ -39,14 +41,14 @@ public class p037_切り詰め可能素数 {
   private static boolean isTractablePrime(int number){
     // Left-to-Right
     for (long i = 10; i <= number; i*=10){
-      if (!MyLibrary.isPrime(number % (int)i)){
+      if (!EulerUtil.isPrime(number % (int)i)){
         return false;
       }
     }
 
     // Right-to-Left
     for (; number != 0; number /= 10) {
-      if (!MyLibrary.isPrime(number))
+      if (!EulerUtil.isPrime(number))
         return false;
     }
 

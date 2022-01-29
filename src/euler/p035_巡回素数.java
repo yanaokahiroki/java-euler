@@ -1,5 +1,7 @@
 package euler;
 
+import util.EulerUtil;
+
 /**
  * 「巡回素数」
  * 197は巡回素数と呼ばれる. 桁を回転させたときに得られる数 197, 971, 719 が全て素数だからである.
@@ -26,7 +28,7 @@ public class p035_巡回素数 {
   private static boolean isPatrolPrime(int number){
     String s = String.valueOf(number);
     for (int i = 0; i < s.length(); i++) {
-      if (!MyLibrary.isPrime(Integer.parseInt(s.substring(i) + s.substring(0, i)))) {
+      if (!EulerUtil.isPrime(Integer.parseInt(s.substring(i) + s.substring(0, i)))) {
         return false;
       }
     }

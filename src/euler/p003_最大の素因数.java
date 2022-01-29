@@ -1,5 +1,7 @@
 package euler;
 
+import util.EulerUtil;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,7 +29,7 @@ public class p003_最大の素因数 {
     List<Integer> factorList = new ArrayList<>();
     long sqrt = (long)Math.sqrt(number);
     for (int i = 2; i <= sqrt; i++){
-      if (number % i == 0 && MyLibrary.isPrime(i)){
+      if (number % i == 0 && EulerUtil.isPrime(i)){
         factorList.add(i);
       }
     }

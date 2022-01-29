@@ -1,5 +1,7 @@
 package euler;
 
+import util.EulerUtil;
+
 /**
  * 「10001番目の素数」 素数を小さい方から6つ並べると 2, 3, 5, 7, 11, 13 であり, 6番目の素数は 13 である.
  *
@@ -16,7 +18,7 @@ public class p007_10001番目の素数 {
     int counter = 1;
     int result = 0;
     for (int i = 2; counter <= limit; i++){
-      if (MyLibrary.isPrime(i)){
+      if (EulerUtil.isPrime(i)){
         result = i;
         counter++;
       }
